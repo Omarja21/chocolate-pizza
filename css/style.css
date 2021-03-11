@@ -1,0 +1,133 @@
+img:first-child{
+    float: left;
+padding-left: 30px;
+padding-right: 5px;
+
+}
+header nav p:nth-child(2){
+    font-family:fantasy;
+font-size: large;
+margin: 0px;
+display: block;
+}
+header nav p:nth-child(3){
+    font-family:fantasy;
+font-size: small;
+margin: 0px;
+display: inline-block;
+}
+header{ 
+    position: relative;
+    padding-bottom: 20px;
+    border-bottom:rgb(92, 91, 91) 15px dashed;
+
+}
+header nav img{
+    float: right;
+    display: inline-block;
+    padding: 2px;
+}
+header nav img:nth-child(5){
+    padding-left: 10px;
+}
+main{
+    position: relative;
+}
+main h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 125px;
+    margin-bottom: 0px;
+    font-size: 40px;
+    
+}
+main p:nth-child(2){
+    margin-top: 0px;
+    margin-left: 130px;
+    font-family:sans-serif;
+    opacity: 0.7;
+    font-size: 14px;
+    display: inline-block;
+}
+main img:nth-child(4){
+    float: right;
+    max-width: 100%;
+    height: 14px;
+    padding-right: 14px;
+    margin-top: 5px;
+    
+}
+main p:nth-child(3){
+    float: right;
+    margin: 0px;
+    padding-right: 100px;
+}
+main img:nth-child(5){
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-bottom: 30px;
+    display: block;
+}
+main, header,footer{
+    margin-left: 80px;
+    margin-right: 100px;
+}
+main img:nth-child(9){
+    margin-left: 150px;
+}
+main p:nth-child(10){
+    position: absolute;
+    bottom: 230px;
+    left: 200px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+main form{
+    position: absolute;
+    bottom: 88px;
+    left: 200px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+main form:nth-child(11){
+    position: absolute;
+    bottom: 88px;
+    left: 650px;
+}
+main form li{
+    padding: 6px    
+}
+footer{
+    border-top: rgb(92, 91, 91) 15px dashed;
+}
+footer img{
+    margin-top: 35px;
+    margin-left: 100px;
+    display: inline-block;
+}
+footer p{
+    display: inline-block;
+}
+footer h3{
+    margin: 0px;
+    margin-top:15px ;
+}
+footer button{
+    color: white;
+    background-color: red;
+    padding: 0px;
+    border-color: red;
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    right: 100px;
+
+}
+footer img:nth-child(5){
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+footer p:nth-child(6), :nth-child(7){
+    display: block;
+    text-align: center;
+    
+}
